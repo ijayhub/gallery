@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Nunito-Sans', sans-serif;
+    overflow-x: hidden;
+    width:100%;
+    
+}
+.hero-bg{
+    background-image: url('../images/hero-img.jpg');
+    background-repeat: no-repeat;
+    background-position:50% 50%;
+    background-size:cover;
+}
+.hero-heading{
+    font-family:'Niconne', cursive ;
+}
+
+.hero-text__slide{
+    display:block;
+    animation:slide 1s linear;
+}
+@keyframes slide{
+    0%{
+        transform:translateX(-2rem);
+        opacity:0;
+    }
+    100%{
+        transform:translateX(0);
+        opacity:1;
+    }
+}
+.parallax{
+    background-image: url('../images/parallax-img.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.parallax-link{
+    font-family:'Niconne', cursive ;
+}
+.gallery-bg{
+    background-image: url('../images/gallery-bg2.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+#overflow-gallery{
+
+    overflow-x:hidden ;
+    width:100%;
+
+}
+.gallery-heading{
+    font-family:'Niconne', cursive ;
+}
+
+
